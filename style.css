@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+#hero {
+    background-color: rgb(255, 187, 0);
+}
+
+.container-map{
+    background-color: rgb(0, 0, 0);
+}
+
+#container-food {
+    background-color: rgb(181, 4, 4);
+}
+
+
+.title {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900px;
+}
+
+.text-hero {
+    color: rgb(183, 8, 8);
+}
+
+.btn-hero {
+    border-radius: 15px;
+    height: 45px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 15px;
+}
+
+.btn-hero:hover {
+    border-top: 6px solid orangered;
+    border-left: 4px solid orangered;
+}
+
+.cover-image {
+    width: 100%;
+    height: 200px;
+    /* O el tamaño que desees */
+    object-fit: contain;
+}
+
+.navbar .navbar-brand {
+    font-weight: 800;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgba(230, 0, 0, 0.846);
+    font-size: 45px;
+}
+
+
+.navbar .nav-item {
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar .nav-item a {
+    color: rgba(230, 0, 0, 0.846);
+}
+
+.navbar .nav-item a:hover {
+  border-top: 3px solid white;
+}
+
+h2 {
+    font-weight: 800;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgba(230, 0, 0, 0.846);
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+#map {
+    height:400px;
+    width:100%;
+  }
+
+#listaPizzas{
+    background-color: rgb(181, 4, 4);
+    color: white;
+    border: 1px dotted white;
+}
+  
+  
