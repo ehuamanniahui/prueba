@@ -1,6 +1,6 @@
 // Coordenadas
-const lat = 19.4326;
-const lon = -99.1332;
+const lat = -12.0510878;
+const lon = -76.9741775;
 
 // Inicializa el mapa dentro del div con id "map"
 const map = L.map('map').setView([lat, lon], 14);
